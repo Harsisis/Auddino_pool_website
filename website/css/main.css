@@ -4289,6 +4289,7 @@
 
 		#footer a {
 			color: rgba(255, 255, 255, 0.5);
+			text-decoration: none;
 		}
 
 			#footer a:hover {
@@ -4309,4 +4310,12 @@
 				padding: 3rem 0 1rem 0 ;
 			}
 
+		}
+
+
+
+
+		iframe{
+			display: block;
+			margin: 0 auto;
 		}
