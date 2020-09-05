@@ -2,11 +2,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
-/*
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 /* Reset */
 
@@ -17,6 +13,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		color : #454545;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1586,6 +1583,7 @@
 
 	html {
 		font-size: 13pt;
+		scroll-behavior: smooth;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2391,6 +2389,7 @@
 
 		ul li {
 			padding-left: 0.5rem;
+			text-decoration:none;
 		}
 
 		ul.alt {
@@ -2401,6 +2400,7 @@
 			ul.alt li {
 				border-top: solid 1px;
 				padding: 0.5rem 0;
+				text-decoration:none;
 			}
 
 				ul.alt li:first-child {
@@ -2588,7 +2588,7 @@
 	}
 
 	table {
-		margin: 0 0 2rem 0;
+		margin: 0 0.2vh 1rem 0.2vh;
 		width: 100%;
 	}
 
