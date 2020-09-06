@@ -4312,7 +4312,13 @@
 
 		}
 
-
+		section.back{
+			float: left;
+			postion: fixed;
+			z-index: 10;
+			text-align: center;
+			top: 0;
+		}
 
 
 		iframe{
