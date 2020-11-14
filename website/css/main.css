@@ -1548,10 +1548,6 @@
 
 /* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
-
 	body {
 		-ms-overflow-style: scrollbar;
 	}
@@ -4278,6 +4274,15 @@
 			}
 
 		}
+
+/*Table*/
+.Tjour{
+	text-align: right;
+}
+.Thoraire{
+	text-align: center;
+}
+
 
 /* Footer */
 
