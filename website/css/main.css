@@ -4325,6 +4325,9 @@
 			top: 0;
 		}
 
+		.footer .rowF:after{
+			display: flex;
+		}
 
 		iframe{
 			display: block;
