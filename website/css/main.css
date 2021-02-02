@@ -4354,3 +4354,10 @@
 #topBtn:hover {
 	background-color: #555;
 }
+
+.explainHeader{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center
+}
