@@ -9,8 +9,8 @@ function envoi() {
         if (pos==-1 || pos==0 || pos==address.length-1) {
             alert("Le format du mail est invalide.");
         }
-        else // tout va bien, on envoie le formulaire
-            document.formu.action='mailto:cadetgauthier4@gmail.com?subject="Demande client"';
-        // bluewaymv@outlook.com
+        else{
+            document.formu.action='mailto:bluewaymv@outlook.com?subject="Demande client"';
+        }
     }
 }

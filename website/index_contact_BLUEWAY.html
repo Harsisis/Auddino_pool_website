@@ -62,24 +62,10 @@
                     <textarea name="contenu" id="contenu" placeholder="Contenu du mail" required style="resize: none; height: 350px"></textarea>
                     <br><br><br><br>
                     <div style="text-align: center">
-                        <input type="submit" value="Envoyer !" name="envoyer">
+                        <input type="submit" value="Envoyer !" name="envoyer" onclick="envoi()">
                     </div>
 
                 </form>
-                <?php
-                if (isset($_POST['contenu'])) {
-                    $position_arobase = strpos($_POST['mail'], '@');
-                    if ($position_arobase === false)
-                        echo '<script>alert("Votre email doit comporter un arobase.")</script>';
-                    else {
-                        $retour = mail('cadetgauthier4@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
-                        if($retour)
-                            echo '<script>alert("Votre message a été envoyé.")</script>';
-                        else
-                            echo '<script>alert("Erreur.")</script>';
-                    }
-                }
-                ?>
             </div>
         </div>
     </div>
@@ -91,7 +77,7 @@
         <div class="div-col-footer">
             <ul>
                 <li class="li-footer">Rue de la Grande Rayée, 57280 Hauconcourt</li>
-                <li class="li-footer"><a href="index_contact_BLUEWAY.php">bluewaymv@outlook.com</a></li>
+                <li class="li-footer"><a href="index_contact_BLUEWAY.html">bluewaymv@outlook.com</a></li>
                 <li class="li-footer">
                     <table>
                         <tr>
