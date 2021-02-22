@@ -4276,11 +4276,9 @@
 		}
 
 /*Table*/
-.Tjour{
+.Tjour, .Thoraire{
 	text-align: right;
-}
-.Thoraire{
-	text-align: center;
+	color: #cccccc;
 }
 
 
@@ -4360,4 +4358,22 @@
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center
+}
+
+
+.li-footer {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	list-style: none;
+	color: #cccccc;
+}
+
+.div-col-footer{
+	flex: 50%;
+	width: 40%;
+	margin: 5%;
+}
+
+.div-row-footer {
+	display: flex
 }
