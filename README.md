@@ -2,15 +2,3 @@
 Project site for BLUEWAY industry 
 
 https://bluewaymvpiscine.fr/website/index_accueil_BLUEWAY.html
-
-Todo
-  - contact button header
-  - search bar header
-  - menu button top left
-  - menu pannel open from left
-  - form mail
-  - photos up button
-  - align
-  - footer
-      - social network bottom right
-      - contact info bottom left
