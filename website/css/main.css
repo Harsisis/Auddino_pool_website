@@ -4395,7 +4395,16 @@
 	border-radius: 5px;
 }
 
+.col-accessories:hover {
+	background-color: #222222;
+
+}
+
 .title-accessories {
 	font-size: large;
 	color: #cccccc;
+}
+
+.accessories {
+	border: none;
 }
