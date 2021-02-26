@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE HTML>
 
 <html lang="fr">
@@ -136,3 +139,4 @@
 
 </body>
 </html>
+

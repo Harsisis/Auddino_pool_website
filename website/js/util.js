@@ -1,3 +1,14 @@
+function clickTraitements () {
+	window.open("index_accessoire_BLUEWAY.html/#three")
+}
+function clickJouets () {
+
+}
+function clickEntretient () {
+
+}
+
+
 (function($) {
 
 	/**
