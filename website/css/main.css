@@ -2893,7 +2893,7 @@
 				color: #000;
 			}
 
-			.wrapper.style2 a {
+			.wrapper.style2 a:not(.accessories) {
 				color: #1F5E84;
 			}
 
@@ -4407,6 +4407,6 @@
 }
 
 .accessories {
-	border-bottom: none;
 	text-decoration: none;
+	border-bottom: none;
 }
