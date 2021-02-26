@@ -4403,8 +4403,9 @@
 .title-accessories {
 	font-size: large;
 	color: #cccccc;
+	border-bottom: none;
 }
 
 .accessories {
-	border: none;
+	border-bottom: none;
 }
