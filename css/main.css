@@ -4249,10 +4249,11 @@
 
 			.banner > article p {
 				margin-bottom: 1rem;
+				font-size: 1em;
 			}
 
 			.banner > article h2 {
-				font-size: 4em;
+				font-size: 2em;
 			}
 
 		}
