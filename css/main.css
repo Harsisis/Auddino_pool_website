@@ -4411,9 +4411,9 @@
 
 .row-accessories {
 	display: table;
-	width: 70%; /*Optional*/
-	table-layout: fixed; /*Optional*/
-	border-spacing: 10px; /*Optional*/
+	width: 70%;
+	table-layout: fixed;
+	border-spacing: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -4428,6 +4428,24 @@
 
 .col-accessories:hover {
 	background-color: #222222;
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.row-accessories {
+		width: 100%;
+	}
+
+	.col-accessories {
+		display: block;
+		text-align: center;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #000;
+		border-radius: 5px;
+	}
 
 }
 
