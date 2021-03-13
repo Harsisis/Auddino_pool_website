@@ -4332,11 +4332,19 @@
 			margin: 0 auto;
 		}
 
+@media screen and (max-width: 736px) {
+
+	#topBtn {
+		width: 30%;
+	}
+
+}
+
 #topBtn {
 	display: none;
 	position: fixed;
-	bottom: 20px;
-	right: 30px;
+	bottom: 0.2em;
+	right: 0.3em;
 	z-index: 99;
 	border: none;
 	outline: none;
