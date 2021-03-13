@@ -4384,8 +4384,30 @@
 }
 
 .div-row-footer {
-	display: flex
+	display: flex;
 }
+
+@media screen and (max-width: 736px) {
+
+	.li-footer {
+		margin-bottom: 5%;
+		margin-top: 5%;
+		list-style: none;
+		color: #cccccc;
+	}
+
+	.div-col-footer{
+		flex: 0;
+		width: 90%;
+		margin: 5%;
+	}
+
+	.div-row-footer {
+		display: block;
+	}
+
+}
+
 
 .row-accessories {
 	display: table;
